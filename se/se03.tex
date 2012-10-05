@@ -1,0 +1,25 @@
+\section{\practicehead{Разделяй и властвуй. Основная теорема.}}
+
+\begin{enumerate}
+
+  \item Определить асимптотику.
+    \begin{itemize}
+      \item $T(n) = 2 \cdot T(\lfloor \frac{n}{2} \rfloor) + n$.
+      \item $T(n) = 2 \cdot T(\lfloor \frac{n}{2} \rfloor + 17) + n$.
+      \item $T(n) = 2 \cdot T(\lfloor \sqrt{n} \rfloor) + \log n$.
+      \item $T(n) = T(\lceil \frac{n}{2} \rceil) + 1$.
+      \item $T(n) = T(a) + T(n - a) + n$ для произвольной константы $a$.
+      \item $T(n) = T(\alpha \cdot n) + T((1 - \alpha) \cdot n) + n$ для произвольной
+                константы $\alpha \in (0, 1)$.
+      \item $T(n) = 4 \cdot T(\lfloor \frac{n}{2} \rfloor) + n^k$ для $k \in \{1, 2, 3\}$.
+    \end{itemize}
+
+  \item Провести объединение, пересечение, вычитание, юник над парой отсортированных
+     массивов за $O(n + m)$.
+
+  \item Есть $k$ отсортированных массивов. В сумме массивы содержат $n$ элементов.
+        Слить массивы за $O(n \log k)$.
+
+  \item Дан массив из $n$ различных элементов. Требуется найти число инверсий за $O(n \log n)$.
+
+\end{enumerate}

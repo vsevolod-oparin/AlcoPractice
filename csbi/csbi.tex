@@ -1,0 +1,23 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm,amsmath,amsfonts,amssymb}
+\usepackage[english,russian]{babel}
+
+\begin{document}
+
+  \renewcommand{\thesection}{}
+
+
+  \newcounter{practice.num}
+  \setcounter{practice.num}{2}
+  \newcommand{\practicehead}[1]{Практика \arabic{practice.num}. #1\addtocounter{practice.num}{1}}
+
+  \input{practice02.tex}
+  \input{practice03.tex}
+  \input{practice04.tex}
+  \input{practice05.tex}
+  \input{practice06.tex}
+
+\end{document}

@@ -1,0 +1,27 @@
+\section{\practicehead{Асимптотика.}}
+
+\newcommand{\cmp}[1]{$f = #1(g)$}
+
+\begin{enumerate}
+
+  \item Вывести явную формулу для $\prod_{k = 1}^n (1 - \frac{1}{k^2})$.
+	
+  \item Показать, что $f(n) + o(f(n)) = \Theta(f(n))$.
+
+  \item Заполнить таблицу сравнений.
+	\begin{center}
+	  \begin{tabular}{|l|l|c|c|c|c|c|}
+		\hline
+		$f$ & $g$ & \cmp{o} & \cmp{O} & \cmp{\omega} & \cmp{\Omega} & \cmp{\Theta} \\
+		\hline
+	    $\log^k (n)$ & $n^\epsilon$  & & & & & \\
+	    $n^k$ & $c^n$ & & & & & \\
+		$\sqrt{n}$  & $n^{\sin(n)}$  & & & & & \\
+		$n^{\log m}$ & $m^{\log n}$ & & & & & \\
+	    $\log(n!)$ & $\log (n^n)$  & & & & & \\
+		\hline
+	  \end{tabular}
+	\end{center}
+	Для последних трех строк таблицы дать пояснения.
+
+\end{enumerate}
